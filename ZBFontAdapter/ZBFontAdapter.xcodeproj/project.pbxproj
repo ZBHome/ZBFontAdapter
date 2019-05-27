@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5589D7229BF2E60085C6AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589D6229BF2E60085C6AC /* AppDelegate.m */; };
+		9E5589DA229BF2E60085C6AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589D9229BF2E60085C6AC /* ViewController.m */; };
+		9E5589DD229BF2E60085C6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5589DB229BF2E60085C6AC /* Main.storyboard */; };
+		9E5589DF229BF2E80085C6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5589DE229BF2E80085C6AC /* Assets.xcassets */; };
+		9E5589E2229BF2E80085C6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5589E0229BF2E80085C6AC /* LaunchScreen.storyboard */; };
+		9E5589E5229BF2E80085C6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589E4229BF2E80085C6AC /* main.m */; };
+		9E5589FA229BF31A0085C6AC /* UIView+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589EC229BF31A0085C6AC /* UIView+ZBAdapter.m */; };
+		9E5589FB229BF31A0085C6AC /* UIButton+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589ED229BF31A0085C6AC /* UIButton+ZBAdapter.m */; };
+		9E5589FC229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589EE229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.m */; };
+		9E5589FD229BF31A0085C6AC /* UILabel+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589F0229BF31A0085C6AC /* UILabel+ZBAdapter.m */; };
+		9E5589FE229BF31A0085C6AC /* UITextField+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589F1229BF31A0085C6AC /* UITextField+ZBAdapter.m */; };
+		9E5589FF229BF31A0085C6AC /* UITextView+ZBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5589F5229BF31A0085C6AC /* UITextView+ZBAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E5589D2229BF2E60085C6AC /* ZBFontAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBFontAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5589D5229BF2E60085C6AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E5589D6229BF2E60085C6AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E5589D8229BF2E60085C6AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E5589D9229BF2E60085C6AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5589DC229BF2E60085C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E5589DE229BF2E80085C6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E5589E1229BF2E80085C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E5589E3229BF2E80085C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5589E4229BF2E80085C6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5589EC229BF31A0085C6AC /* UIView+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589ED229BF31A0085C6AC /* UIButton+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589EE229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589F0229BF31A0085C6AC /* UILabel+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589F1229BF31A0085C6AC /* UITextField+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589F2229BF31A0085C6AC /* UIButton+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E5589F3229BF31A0085C6AC /* ZBKit_DefineCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBKit_DefineCommon.h; sourceTree = "<group>"; };
+		9E5589F4229BF31A0085C6AC /* UIView+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E5589F5229BF31A0085C6AC /* UITextView+ZBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZBAdapter.m"; sourceTree = "<group>"; };
+		9E5589F6229BF31A0085C6AC /* UITextView+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E5589F7229BF31A0085C6AC /* UILabel+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E5589F8229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E5589F9229BF31A0085C6AC /* UITextField+ZBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZBAdapter.h"; sourceTree = "<group>"; };
+		9E558A00229BF3690085C6AC /* ZBFontAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFontAdapter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5589CF229BF2E60085C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5589C9229BF2E60085C6AC = {
+			isa = PBXGroup;
+			children = (
+				9E5589D4229BF2E60085C6AC /* ZBFontAdapter */,
+				9E5589D3229BF2E60085C6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5589D3229BF2E60085C6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5589D2229BF2E60085C6AC /* ZBFontAdapter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5589D4229BF2E60085C6AC /* ZBFontAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				9E5589D5229BF2E60085C6AC /* AppDelegate.h */,
+				9E5589D6229BF2E60085C6AC /* AppDelegate.m */,
+				9E5589D8229BF2E60085C6AC /* ViewController.h */,
+				9E5589D9229BF2E60085C6AC /* ViewController.m */,
+				9E5589DB229BF2E60085C6AC /* Main.storyboard */,
+				9E5589DE229BF2E80085C6AC /* Assets.xcassets */,
+				9E5589E0229BF2E80085C6AC /* LaunchScreen.storyboard */,
+				9E5589E3229BF2E80085C6AC /* Info.plist */,
+				9E5589E4229BF2E80085C6AC /* main.m */,
+				9E5589EB229BF2F70085C6AC /* ZBFontAdapter */,
+			);
+			path = ZBFontAdapter;
+			sourceTree = "<group>";
+		};
+		9E5589EB229BF2F70085C6AC /* ZBFontAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				9E558A00229BF3690085C6AC /* ZBFontAdapter.h */,
+				9E5589F3229BF31A0085C6AC /* ZBKit_DefineCommon.h */,
+				9E5589F4229BF31A0085C6AC /* UIView+ZBAdapter.h */,
+				9E5589EC229BF31A0085C6AC /* UIView+ZBAdapter.m */,
+				9E5589F7229BF31A0085C6AC /* UILabel+ZBAdapter.h */,
+				9E5589F0229BF31A0085C6AC /* UILabel+ZBAdapter.m */,
+				9E5589F2229BF31A0085C6AC /* UIButton+ZBAdapter.h */,
+				9E5589ED229BF31A0085C6AC /* UIButton+ZBAdapter.m */,
+				9E5589F9229BF31A0085C6AC /* UITextField+ZBAdapter.h */,
+				9E5589F1229BF31A0085C6AC /* UITextField+ZBAdapter.m */,
+				9E5589F6229BF31A0085C6AC /* UITextView+ZBAdapter.h */,
+				9E5589F5229BF31A0085C6AC /* UITextView+ZBAdapter.m */,
+				9E5589F8229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.h */,
+				9E5589EE229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.m */,
+			);
+			path = ZBFontAdapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5589D1229BF2E60085C6AC /* ZBFontAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5589E8229BF2E80085C6AC /* Build configuration list for PBXNativeTarget "ZBFontAdapter" */;
+			buildPhases = (
+				9E5589CE229BF2E60085C6AC /* Sources */,
+				9E5589CF229BF2E60085C6AC /* Frameworks */,
+				9E5589D0229BF2E60085C6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBFontAdapter;
+			productName = ZBFontAdapter;
+			productReference = 9E5589D2229BF2E60085C6AC /* ZBFontAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5589CA229BF2E60085C6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "张波";
+				TargetAttributes = {
+					9E5589D1229BF2E60085C6AC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E5589CD229BF2E60085C6AC /* Build configuration list for PBXProject "ZBFontAdapter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5589C9229BF2E60085C6AC;
+			productRefGroup = 9E5589D3229BF2E60085C6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5589D1229BF2E60085C6AC /* ZBFontAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5589D0229BF2E60085C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5589E2229BF2E80085C6AC /* LaunchScreen.storyboard in Resources */,
+				9E5589DF229BF2E80085C6AC /* Assets.xcassets in Resources */,
+				9E5589DD229BF2E60085C6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5589CE229BF2E60085C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5589DA229BF2E60085C6AC /* ViewController.m in Sources */,
+				9E5589FE229BF31A0085C6AC /* UITextField+ZBAdapter.m in Sources */,
+				9E5589FF229BF31A0085C6AC /* UITextView+ZBAdapter.m in Sources */,
+				9E5589FD229BF31A0085C6AC /* UILabel+ZBAdapter.m in Sources */,
+				9E5589FC229BF31A0085C6AC /* NSLayoutConstraint+ZBAdapter.m in Sources */,
+				9E5589E5229BF2E80085C6AC /* main.m in Sources */,
+				9E5589FB229BF31A0085C6AC /* UIButton+ZBAdapter.m in Sources */,
+				9E5589FA229BF31A0085C6AC /* UIView+ZBAdapter.m in Sources */,
+				9E5589D7229BF2E60085C6AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E5589DB229BF2E60085C6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5589DC229BF2E60085C6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5589E0229BF2E80085C6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5589E1229BF2E80085C6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5589E6229BF2E80085C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E5589E7229BF2E80085C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5589E9229BF2E80085C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPNXHY464A;
+				INFOPLIST_FILE = ZBFontAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xg.ZBFontAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5589EA229BF2E80085C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPNXHY464A;
+				INFOPLIST_FILE = ZBFontAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xg.ZBFontAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5589CD229BF2E60085C6AC /* Build configuration list for PBXProject "ZBFontAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5589E6229BF2E80085C6AC /* Debug */,
+				9E5589E7229BF2E80085C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5589E8229BF2E80085C6AC /* Build configuration list for PBXNativeTarget "ZBFontAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5589E9229BF2E80085C6AC /* Debug */,
+				9E5589EA229BF2E80085C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5589CA229BF2E60085C6AC /* Project object */;
+}
